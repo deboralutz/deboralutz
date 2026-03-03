@@ -133,3 +133,45 @@ section h2 {
     border-top: 1px solid var(--cinza-perolado);
     opacity: 0.7;
 }
+
+/* NAVIGATION BAR */
+
+.navbar {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 16px 0;
+  background-color: #ffffff;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  color: #111;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #444;
+  font-weight: 400;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
