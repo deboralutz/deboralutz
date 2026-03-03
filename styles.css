@@ -32,6 +32,12 @@ h1, h2, h3 {
   padding: 60px 20px;
 }
 
+.lead {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
 /* HEADER */
 .header {
     padding: 60px 0 20px;
